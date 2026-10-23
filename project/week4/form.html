@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>CodingForm</title>
+</head>
+<body>
+    <header class="head">
+        <h1 id="mainhead">Coading club</h1>
+        <h5 id="learn">  Learn. Build . Share</h5>
+        
+    </header>
+    
+<nav class="navigation">
+        <a href="Events"> Event</a>
+        <span>|</span>
+        <a href="Register"> Register</a>
+</nav>
+<div>
+
+    
+    <table border="2" class="table">
+        <h2 id="smallhead">Upcoming Events</h2>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>HTML Workshop</td>
+            <td>12 nov</td>
+            <td>LAb1</td>
+        </tr>
+        <tr>
+            <td>Hackathon</td>
+            <td>20 nov</td>
+            <td>Seminar Hall</td>
+
+        </tr>
+        <tr>
+            <td colspan="3">Total Events : 2
+            </td>
+        </tr>
+
+
+    </table>
+</div>
+    <br>
+    <br>
+    <form action="Submit" class="form">
+        <div>
+        <h2 id="frmhead"> Aplicant Form</h2>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" id="phn">
+        <br><br>
+        <label for="gen">Gender :</label>
+        <input type="checkbox"id = "gen" name="gen" value="male">
+        <label for="gen">Male</label>
+        <input type="checkbox"id = "gen" name="gen" value="female">
+        <label for="gen">Female</label>
+        <br>
+        <br>
+        <label for="intrest">Intrest :</label>
+        <input type="checkbox"id = "intrest" name="intrest" value="Web">
+        <label for="gen">Web</label>
+        <input type="checkbox"id = "intrest" name="intrest" value="DSA">
+        <label for="gen">DSA</label>
+        <button id="btn">Registor</button>
+
+
+        </div>
+    </form>
+</body>
+</html>
