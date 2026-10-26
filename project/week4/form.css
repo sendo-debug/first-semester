@@ -1,0 +1,79 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    margin:  auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: solid;
+}
+#mainhead{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+#learn{
+    margin-top: 20px;
+}
+#smallhead{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: white;
+    border-radius: 24px;
+    background-color: white;
+}
+th{
+    background-color: palevioletred;
+    text-align: left;
+    padding: 15px 20px;
+    color: white;
+
+}
+td{
+    text-align: left;
+    padding: 15px 25px;
+    
+}
+body{
+    background: rgb(231, 225, 225);
+}
+a{
+    display: inline-block;
+    background-color: palevioletred;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    border: white;
+    color: white;
+}
+#frmhead{
+    text-align: center ;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+}
+.form{
+    padding: 20 px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+#btn{
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    position: absolute;
+    left: 40%;
+    width: 200px;
+    height: 30px;
+}

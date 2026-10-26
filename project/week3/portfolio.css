@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    padding: 10px 40px;
+    z-index: 100;
+    text-decoration: none;
+}
+.nav-container{
+    max-width: 1200px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    position: relative;
+    padding: 030px 20px;
+    text-decoration: none;
+    gap: 1rem;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    font-size: 60 px;
+}
+a{text-decoration: none;
+    color: white;
+    border: solid white;
+    border-radius: 8px;
+}
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    /* Keep padding tight so it doesn't create a massive block */
+    padding: -50px 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+.hero-content {
+    /* Reduce from 6rem down to something more compact like 3.5rem - 4.5rem */
+    font-size: 8vw;
+    /* Crushing line-height removes the extra empty block height */
+    line-height: 1;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    letter-spacing: -1px;
+    transform: scaleY(1.67);
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    z-index:3;
+    white-space: nowrap;
+    
+}
+.profiles{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 4;
+}
+.hero-char{
+    position:absolute;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-end;
+    left: 40%;
+    bottom: 10px;
+    width: 700px;
+    z-index:1;
+}
+.highlight{
+    position: relative;
+    z-index:2;
+}
+.navbar{
+    position: relative;
+    z-index: 4;
+}
